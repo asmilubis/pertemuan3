@@ -1,0 +1,127 @@
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* BODY */
+body{
+font-family: Arial, sans-serif;
+background:#0a0909;
+color:#333;
+}
+
+/* HEADER */
+header{
+background:#130d10;
+color:white;
+text-align:center;
+padding:40px 20px;
+}
+
+header h1{
+font-size:36px;
+}
+
+/* NAVBAR */
+nav{
+background:#161515;
+text-align:center;
+padding:12px;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+font-size:16px;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+/* SECTION */
+section{
+max-width:900px;
+margin:30px auto;
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* PROFILE IMAGE */
+.profile{
+width:200px;
+border-radius:10px;
+margin-top:20px;
+}
+
+/* BIO */
+.bio{
+margin-top:20px;
+line-height:1.8;
+}
+
+/* SKILLS */
+.skill{
+margin-bottom:20px;
+}
+
+.bar{
+background:#fcf9fa;
+height:10px;
+border-radius:5px;
+overflow:hidden;
+}
+
+.bar div{
+background:#13050c;
+height:10px;
+}
+
+/* FORM */
+form{
+display:flex;
+flex-direction:column;
+gap:12px;
+margin-top:20px;
+}
+
+input, textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:14px;
+}
+
+textarea{
+min-height:120px;
+}
+
+/* BUTTON */
+button{
+padding:12px;
+background:#0c0b0c;
+color:white;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#110f10;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+background:#0f0e0f;
+color:white;
+padding:20px;
+margin-top:30px;
+}
